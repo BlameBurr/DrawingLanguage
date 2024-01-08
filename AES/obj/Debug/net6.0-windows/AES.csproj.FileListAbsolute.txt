@@ -1,0 +1,16 @@
+C:\Users\James\Downloads\asekwproject\AES\AES\bin\Debug\net6.0-windows\AES.exe
+C:\Users\James\Downloads\asekwproject\AES\AES\bin\Debug\net6.0-windows\AES.deps.json
+C:\Users\James\Downloads\asekwproject\AES\AES\bin\Debug\net6.0-windows\AES.runtimeconfig.json
+C:\Users\James\Downloads\asekwproject\AES\AES\bin\Debug\net6.0-windows\AES.dll
+C:\Users\James\Downloads\asekwproject\AES\AES\bin\Debug\net6.0-windows\AES.pdb
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.Form1.resources
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.csproj.GenerateResource.cache
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.AssemblyInfoInputs.cache
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.AssemblyInfo.cs
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.csproj.CoreCompileInputs.cache
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.dll
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\refint\AES.dll
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.pdb
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\AES.genruntimeconfig.cache
+C:\Users\James\Downloads\asekwproject\AES\AES\obj\Debug\net6.0-windows\ref\AES.dll
