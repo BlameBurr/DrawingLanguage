@@ -147,13 +147,23 @@ namespace AES
         {
             if (!token.ContainsKey("name") || token["name"] == null)
                 throw new Exception("Parser could not find variable name in assignment token");
-
             if (!token.ContainsKey("parameters") || token["parameters"] == null)
                 throw new Exception("Parser could not find variable parameters in assignment token");
             
             string vName = (string)token["name"];
             List<object> vParams = (List<object>)token["parameters"];
-
+            vParams = parameterHandler(vParams);
+            foreach (object item in vParams)
+            {
+                Dictionary<string, object> component = (Dictionary<string, object>)item;
+                if (component["type"].Equals("operator") && (string)component["value"] == ",")
+                    throw new Exception("Variables should only have one parameter");
+            }
+            int value = (int)(((Dictionary<string, object>)vParams[0])["value"]);
+            if (variables.ContainsKey(vName))
+                variables[vName] = value;
+            else
+                variables.Add(vName, value);
         }
 
         private void functionHandler(Dictionary<string, object> token, int operatorResolveIndex = -2, char operationSearch = '/')
